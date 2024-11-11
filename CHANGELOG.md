@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.2.3]
+
+### Fixed [1.2.3]
+
+- Explicitly use version 1.15 of the pc dependency, as an incompatible older version was being fetched by default
+- Fix compile warning regarding a bad function signature for the NIF unloading callback, which is an error on newer versions of Apple's C compiler.
+
 ## [1.2.2]
 
 ### Fixed [1.2.2]
