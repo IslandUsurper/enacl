@@ -1,9 +1,9 @@
 {application,enacl,
              [{description,"Erlang libsodium (NaCl) bindings"},
-              {vsn,"1.2.1"},
+              {vsn,"1.2.3"},
               {registered,[]},
               {applications,[kernel,stdlib]},
               {env,[]},
-              {maintainers,["Jesper Louis Andersen"]},
+              {maintainers,["Lyle Mantooth"]},
               {licenses,["MIT","ISC"]},
-              {links,[{"Github","https://github.com/jlouis/enacl"}]}]}.
+              {links,[{"Github","https://github.com/IslandUsurper/enacl"}]}]}.
